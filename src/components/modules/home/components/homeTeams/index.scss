@@ -1,0 +1,54 @@
+.home-teams {
+  &__content {
+    max-width: 1200px;
+    margin: 95px auto 101px;
+
+    &__tag {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__header {
+      margin: 16px 0 40px;
+      text-align: center;
+    }
+
+    &__team-mates {
+      display: flex;
+      gap: 54px;
+    }
+  }
+}
+
+.home-team {
+  width: 364px;
+  color: #ffffff;
+  position: relative;
+
+  &__image {
+    max-width: 364px;
+    height: 426px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: var(--heading);
+    padding: 42px 0 20px 34px;
+  }
+
+  &__socials {
+    position: absolute;
+    bottom: 81px;
+    right: 0;
+    background: var(--gradient);
+    padding: 20px 17px;
+    display: flex;
+    gap: 25px;
+  }
+}

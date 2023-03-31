@@ -1,0 +1,93 @@
+.home-testimonial {
+  padding: 62px 72px;
+  background: #F4F4F4;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+
+    &__author {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      &__avatar {
+        width: 91px;
+        height: 91px;
+      }
+
+      &__details{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--primary-dark);
+
+
+        .name{
+            color: var(--primary-dark); 
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .designation{    
+            color: var(--primary-dark);
+        }
+      }
+    }
+  }
+
+  &__testimony {
+    max-width: 456px;
+    margin: 24px 0 32px;
+    // color: var(--paragraph);
+  }
+
+  &__rates{
+    display: flex;
+    gap: 3px;
+
+    .rate{
+        width: 34px;
+        height: 34px;
+    }
+  }
+}
+
+.home-testimonials{
+    &__content{
+        max-width: 1200px;
+        margin: 98px auto 101px;
+
+        &__slider-header{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0 40px;
+
+            &__controls{
+                display: flex;
+                gap: 9px;
+            }
+        }
+
+        &__slider-card{
+           display: flex;
+
+           .slider-light{
+            color: var(--paragraph);
+           }
+
+           .slider-dark{
+            background: var(--primary-dark);
+            color: #FFF;
+
+            .name{
+                color: #FFF;
+            }
+            .designation{
+                color: #FFF;
+            }
+           }
+        }
+    }
+}

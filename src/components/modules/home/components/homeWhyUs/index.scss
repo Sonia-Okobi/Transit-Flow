@@ -1,0 +1,109 @@
+.home-why-us {
+//   background: #ffffff;
+  position: relative;
+  margin-top: 366px;
+  padding-left: 86px;
+  padding-right: 93px;
+//   padding-top: 85px;
+
+  &::after {
+    content: '';
+    height: 504px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: url(../../../../../assets/images/solution-background.png);
+    top: -366px;
+    left: 0;
+  }
+
+  &__content {
+    max-width: 1200px;
+    margin: 0px auto 0;
+    margin-top: -178px;
+    background: #fff;
+    padding: 85px 93px 0 86px;
+
+    &__top {
+      display: flex;
+      gap: 88px;
+      margin-bottom: 159px;
+      
+
+      &__text {
+        &__header {
+          margin: 12px 0;
+          max-width: 472px;
+        }
+
+        &__description {
+          max-width: 464px;
+          color: var(--paragraph);
+        }
+
+        &__lists {
+          margin-top: 25px;
+          display: flex;
+          flex-direction: column;
+          gap: 22px;
+        }
+      }
+
+      &__image {
+        position: relative;
+
+        &__image1 {
+          width: 461px;
+          height: 415px;
+        }
+
+        &__image2 {
+          width: 372px;
+          height: 248px;
+          position: absolute;
+          z-index: 1;
+          bottom: -73px;
+          left: -145px;
+        }
+      }
+    }
+
+    &__base {
+      border-top: 1px solid #d4d4d4;
+      border-bottom: 1px solid #d4d4d4;
+      display: flex;
+      margin-bottom: 97px;
+
+      &__text {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding-top: 46px;
+        padding-bottom: 38px;
+
+
+        &__pattern {
+          height: 17px;
+          width: 17px;
+          background: var(--gradient);
+        }
+
+        &__services {
+          font-weight: 400;
+          line-height: 18px;
+          color: var(--heading);
+        }
+      }
+
+      .packages {
+        border-right: 1px solid #d4d4d4;
+        padding-right: 106px;
+        margin-left: 86px;
+      }
+
+      .clients {
+        padding-left: 122px;
+      }
+    }
+  }
+}

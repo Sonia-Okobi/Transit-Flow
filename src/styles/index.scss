@@ -1,0 +1,118 @@
+@import './common/page.scss';
+
+:root {
+  --primary-light: #ffbe34;
+  --primary-dark: #091242;
+  --secondary: #f4f4f4;
+  --heading: #1c1f35;
+  --paragraph: #666c89;
+  --gradient: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 50.75%,
+    #ffd7a6 102.71%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  text-decoration: none;
+  background: transparent;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  list-style: none;
+}
+
+body{
+  font-family: 'Krub', sans-serif;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 71px;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 59px;
+  color: var(--heading);
+  font-family: 'Rubik', sans-serif;
+}
+
+h3 {
+  color: var(--heading);
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41px;
+  font-family: 'Rubik', sans-serif;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--heading);
+  font-family: 'Rubik', sans-serif;
+}
+
+h5{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text {
+  &--2xs {
+    font-size: 12px;
+  }
+  &--xs {
+    font-size: 14px;
+  }
+  &--sm {
+    font-size: 16px;
+  }
+  &--md {
+    font-size: 20px;
+  }
+  &--lg {
+    font-size: 25px;
+  }
+  &--xl {
+    font-size: 30px;
+  }
+  &--2xl {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  &--3xl {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  &--4xl {
+    font-size: 50px;
+  }
+  &--5xl {
+    font-size: 60px;
+  }
+}
+
+

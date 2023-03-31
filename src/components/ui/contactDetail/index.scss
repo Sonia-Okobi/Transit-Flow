@@ -1,0 +1,23 @@
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+
+  &__icon {
+    width: 63px;
+    height: 63px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      color: #ffffff;
+    }
+
+    &__value{
+        color: #ffffff;
+    }
+  }
+}

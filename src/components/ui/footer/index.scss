@@ -1,0 +1,123 @@
+.footer {
+  color: #ffffff;
+
+  .footer-image {
+    height: 412px;
+    width: 100%;
+    display: flex;
+  }
+  &__content {
+    background: var(--primary-dark);
+
+    &__text {
+      // max-width: 1205px;
+      // margin: 0 auto;
+
+      &__banner {
+        background: rgba(255, 255, 255, 0.08);
+        display: flex;
+        align-items: center;
+        padding-left: 312px;
+
+        .footer-logo {
+          background: var(--primary-dark);
+          padding: 43px 0 39px 43px;
+          width: 427px;
+        }
+
+        &__header {
+          display: flex;
+          gap: 152px;
+          margin-left: 54px;
+          font-weight: 500;
+          font-size: 25px;
+          line-height: 30px;
+        }
+      }
+
+      &__body {
+        display: flex;
+        max-width: 1205px;
+        margin: 30px auto 0;
+
+        &__info {
+          &__description {
+            max-width: 319px;
+            margin-top: 9px;
+          }
+
+          &__contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 33px;
+            margin-bottom: 48px;
+          }
+        }
+
+        &__links {
+          color: #ffffff;
+          margin-bottom: 20px;
+
+          li {
+            margin-bottom: 20px;
+
+            a{
+                color: #ffffff;
+            }
+          }
+        }
+        .pages {
+          margin-left: 117px;
+        }
+
+        .utility {
+          margin: 0 140px;
+        }
+
+        .subscribe {
+          flex: 1;
+
+          .subscribe-buttons {
+            display: flex;
+            gap: 35px;
+            align-items: center;
+            margin-top: 20px;
+          }
+
+          .subscribe-socials {
+            display: flex;
+            gap: 27px;
+
+            img {
+              width: 22px;
+              height: 22px;
+            }
+          }
+        }
+      }
+
+      &__base {
+        display: flex;
+        max-width: 1195px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+
+        &__copyright {
+          line-height: 40px;
+        }
+
+        &__links {
+          display: flex;
+          color: #8388a7;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 40px;
+          width: 412px;
+          justify-content: space-evenly;
+        }
+      }
+    }
+  }
+}

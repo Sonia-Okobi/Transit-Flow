@@ -1,0 +1,26 @@
+.home-hero{
+    padding: 0 0 218px;
+    background: url(../../../../../assets/images/hero.png);
+
+    &__content{
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .hero-tag{
+            background: rgba(4, 28, 55, 0.5);
+            color: #fff !important;
+            width: fit-content;
+        }
+
+        &__header{
+            max-width: 554px;
+            margin: 8px 0 6px;
+        }
+
+        &__description{
+            max-width: 571px;
+            margin-bottom: 24px;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.banner{
+    background: var(--primary-dark);
+    padding: 49px 0;
+
+    &__content{
+        display: flex;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+
+        &__contact-details{
+            display: flex;
+            gap: 39px;
+        }
+    }
+}

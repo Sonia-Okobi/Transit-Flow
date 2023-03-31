@@ -1,0 +1,9 @@
+.base-input {
+  border: 1px solid #4e5683;
+  padding: 21px 30px;
+  width: 100%;
+
+  &::placeholder {
+    color: #ffffff;
+  }
+}
