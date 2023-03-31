@@ -18,6 +18,9 @@ export default function HomeTeam({ image, name, socials }: HomeTeamProps) {
       </div>
       <div className="home-team__socials">
         <img src={socials} alt="Icons" />
+        <img src={socials} alt="Icons" />
+        <img src={socials} alt="Icons" />
+        <img src={socials} alt="Icons" />
       </div>
     </div>
   );
