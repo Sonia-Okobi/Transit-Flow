@@ -7,6 +7,7 @@ import Tylor from '../../../../../assets/images/Tylor.png';
 import './index.scss';
 
 
+
 export default function HomeTeams() {
   return (
     <div className="home-teams">
@@ -17,9 +18,9 @@ export default function HomeTeams() {
         />
         <h3 className="home-teams__content__header">Meet Expert Team</h3>
         <div className="home-teams__content__team-mates">
-          <HomeTeam name="Jessca Arow" image={Jessica} />
-          <HomeTeam name="Kathleen Smith" image={Smith} />
-          <HomeTeam name="Rebecca Tylor" image={Tylor} />
+          <HomeTeam name="Jessca Arow" image={Jessica} twitter facebook instagram/>
+          <HomeTeam name="Kathleen Smith" image={Smith} linkedin twitter facebook instagram/>
+          <HomeTeam name="Rebecca Tylor" image={Tylor} facebook instagram/>
         </div>
       </div>
     </div>
