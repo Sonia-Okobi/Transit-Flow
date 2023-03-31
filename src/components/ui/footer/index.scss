@@ -96,11 +96,15 @@
           }
         }
       }
+      hr{
+        border: 1px solid #4E5683;
+      }
 
       &__base {
         display: flex;
         max-width: 1195px;
         margin: 0 auto;
+        padding: 15px 0 18px;
         align-items: center;
         justify-content: space-between;
 

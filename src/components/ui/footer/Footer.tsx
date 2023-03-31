@@ -81,6 +81,7 @@ export default function Footer({}: Props) {
               </div>
             </div>
           </div>
+          <hr />
           <div className="footer__content__text__base">
             <p className="footer__content__text__base__copyright">
               Copyright © TransitFlow | Designed by VictorFlow - Powered by
