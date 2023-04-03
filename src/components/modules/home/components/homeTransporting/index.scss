@@ -22,10 +22,12 @@
     }
 
     &__transport-method {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 18px;
       margin: 35px 0 65px;
     }
+    
     &__button {
       margin: 0 auto;
     }
@@ -33,31 +35,29 @@
 }
 
 .transport-method {
-    max-width: 320px;
-    height: 408px;
-    position: relative;
+  position: relative;
 
-    img {
-      width: 100%;
+  img {
+    width: 100%;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-weight: 500;
+    line-height: 24px;
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+
+    .transport-type {
+      color: #ffffff;
+      font-family: 'Rubik', sans-serif;
     }
 
-    &__text {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      font-weight: 500;
-      line-height: 24px;
-      position: absolute;
-      left: 25px;
-      top: 336px;
-
-      .transport-type {
-        color: #ffffff;
-        font-family: 'Rubik', sans-serif;
-      }
-
-      .transport-method {
-        color: #ffb629;
-      }
+    .transport-method {
+      color: #ffb629;
     }
   }
+}

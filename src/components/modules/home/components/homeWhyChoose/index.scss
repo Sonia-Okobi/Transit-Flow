@@ -1,8 +1,8 @@
 .home-why-choose {
   background: #f4f4f4;
   padding: 142px 0 145px;
-  position: relative;
-  z-index: -1;
+  //   position: relative;
+  //   z-index: -1;
 
   &__content {
     display: flex;
@@ -17,19 +17,19 @@
         height: 610px;
         display: flex;
         padding-left: 140px;
-        
+        position: relative;
+        z-index: 1;
 
         &::after {
           content: '';
           background: var(--primary-dark);
           position: absolute;
           left: 0;
-          top: 0;
+          top: -142px;
           width: 960px;
           height: 897px;
           z-index: -1;
         }
-
 
         &__tag {
           background: var(--gradient);
@@ -38,7 +38,7 @@
           gap: 21px;
           align-items: center;
           position: absolute;
-          bottom: 145px;
+          bottom: 0;
           left: 360px;
 
           &__icon {
