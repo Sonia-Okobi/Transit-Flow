@@ -10,7 +10,7 @@ import './index.scss';
 
 export default function HomeTransporting() {
   return (
-    <div className="home-transporting">
+    <div className="app-container home-transporting">
       <div className="home-transporting__content">
         <h3 className="home-transporting__content__header">
           Transporting Across The World
@@ -42,7 +42,12 @@ export default function HomeTransporting() {
             method="Ocean Transports"
           />
         </div>
-        <BaseButton variant="secondary" className='home-transporting__content__button'>More Work</BaseButton>
+        <BaseButton
+          variant="secondary"
+          className="home-transporting__content__button"
+        >
+          More Work
+        </BaseButton>
       </div>
     </div>
   );

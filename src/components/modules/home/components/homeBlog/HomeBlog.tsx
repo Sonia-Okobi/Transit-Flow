@@ -7,7 +7,7 @@ import HomeBlogPost from './HomeBlogPost';
 
 export default function HomeBlog() {
   return (
-    <div className="home-blog">
+    <div className="app-container home-blog">
       <div className="home-blog__content">
         <BaseTag value="Our Blog" className="home-blog__content__tag" />
         <h3 className="home-blog__content__header">Our Latest News</h3>

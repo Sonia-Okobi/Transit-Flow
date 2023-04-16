@@ -8,7 +8,7 @@ import './index.scss';
 
 export default function HomeTeams() {
   return (
-    <div className="home-teams">
+    <div className="app-container home-teams">
       <div className="home-teams__content">
         <BaseTag
           className="home-teams__content__tag"

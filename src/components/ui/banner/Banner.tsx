@@ -8,7 +8,7 @@ type Props = {};
 
 export default function Banner({}: Props) {
   return (
-    <div className="banner">
+    <div className="app-container banner">
       <div className="banner__content">
         <Logo />
         <div className="banner__content__contact-details">

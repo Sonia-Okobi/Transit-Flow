@@ -17,7 +17,7 @@ export default function HomeContact({}: Props) {
   const partners = [green, norto, points, sandbox];
 
   return (
-    <div className="home-contact">
+    <div className="app-container home-contact">
       <div className="home-contact__content">
         <div className="home-contact__content__form-area">
           <div className="home-contact__content__form-area__details">

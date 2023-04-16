@@ -12,7 +12,7 @@ type Props = {};
 
 export default function HomeWhyUs({}: Props) {
   return (
-    <div className="home-why-us">
+    <div className="app-container home-why-us">
       <div className="home-why-us__content">
         <div className="home-why-us__content__top">
           <div className="home-why-us__content__top__text">

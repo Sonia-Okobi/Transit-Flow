@@ -8,7 +8,7 @@ type Props = {};
 
 export default function HomeWhat({}: Props) {
   return (
-    <div className="home-what">
+    <div className="app-container home-what">
       <div className="home-what__content">
         <div className="home-what__content__heading">
           <BaseTag value="What We Do" />

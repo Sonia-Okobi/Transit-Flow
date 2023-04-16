@@ -10,7 +10,7 @@ type Props = {};
 
 export default function NavBar({}: Props) {
   return (
-    <div className="nav-bar">
+    <div className="app-container nav-bar">
       <div className="nav-bar__content">
         <ul className="nav-links">
           <li>

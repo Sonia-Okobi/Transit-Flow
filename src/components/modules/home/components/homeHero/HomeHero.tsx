@@ -10,7 +10,7 @@ export default function HomeHero({}: Props) {
   return (
     <div className="home-hero">
       <NavBar />
-      <div className="home-hero__content">
+      <div className="app-container home-hero__content">
         <BaseTag value="Logistics & Supply Chain Solutions" className='hero-tag' />
         <h1 className="home-hero__content__header">
           Your Gateway to any Destination in the World

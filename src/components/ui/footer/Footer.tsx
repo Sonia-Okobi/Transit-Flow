@@ -50,18 +50,38 @@ export default function Footer({}: Props) {
               </div>
             </div>
             <ul className="footer__content__text__body__links pages">
-              <li><a href="/">About Us</a></li>
-              <li><a href="/">Our Team</a></li>
-              <li><a href="/">Our Project</a></li>
-              <li><a href="/">Pricing</a></li>
-              <li><a href="/">Contact</a></li>
+              <li>
+                <a href="/">About Us</a>
+              </li>
+              <li>
+                <a href="/">Our Team</a>
+              </li>
+              <li>
+                <a href="/">Our Project</a>
+              </li>
+              <li>
+                <a href="/">Pricing</a>
+              </li>
+              <li>
+                <a href="/">Contact</a>
+              </li>
             </ul>
             <ul className="footer__content__text__body__links utility">
-              <li><a href="/">Style Guide</a></li>
-              <li><a href="/">Changelog</a></li>
-              <li><a href="/">Licenses</a></li>
-              <li><a href="/">Protected</a></li>
-              <li><a href="/">Not Found</a></li>
+              <li>
+                <a href="/">Style Guide</a>
+              </li>
+              <li>
+                <a href="/">Changelog</a>
+              </li>
+              <li>
+                <a href="/">Licenses</a>
+              </li>
+              <li>
+                <a href="/">Protected</a>
+              </li>
+              <li>
+                <a href="/">Not Found</a>
+              </li>
             </ul>
             <div className="footer__content__text__body__links subscribe">
               <BaseInput placeholder="Email here*" />
@@ -82,7 +102,7 @@ export default function Footer({}: Props) {
             </div>
           </div>
           <hr />
-          <div className="footer__content__text__base">
+          <div className="app-container footer__content__text__base">
             <p className="footer__content__text__base__copyright">
               Copyright © TransitFlow | Designed by VictorFlow - Powered by
               Webflow.
